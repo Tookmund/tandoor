@@ -62,8 +62,7 @@ jobs:
         uses: docker/metadata-action@v6
         with:
           images: |
-            vabene1111/recipes
-            ghcr.io/TandoorRecipes/recipes
+            ghcr.io/tookmund/tandoor
           flavor: |
             latest=false
             suffix=${{ matrix.suffix }}
